@@ -1,0 +1,171 @@
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.col-1 {
+  border: 1px solid var(--secondary-color);
+  flex: 1;
+  border-radius: 10px;
+  color: white;
+  border-spacing: space-evenly;
+}
+.col-2 {
+  border: 1px solid var(--secondary-color-color);
+  flex: 1;
+  border-radius: 10px;
+  color: white;
+}
+
+#aboutMe {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex: 1;
+  text-align: center;
+}
+:root {
+  --primary-color: rgb(85, 66, 138);
+  --secondary-color: rgb(149, 195, 149);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --border: 20px solid rgb(149, 195, 149);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+  color: rgb(56, 85, 56);
+}
+h2 {
+  font-size: 48px;
+  color: darkgreen;
+}
+h3 {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.7;
+  color: rgb(173, 81, 16);
+}
+.contact-me {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.contact-link {
+  color: white;
+  border: var(--border);
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.contact-link:hover {
+  color: black;
+}
+.about-link:visited {
+  background-color: rgb(227, 154, 44);
+  border: 20px solid rgb(227, 154, 44);
+}
+.about-link {
+  color: white;
+  border: 20px solid var(--primary-color);
+  background-color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.about-link:hover {
+  color: black;
+}
+
+#contactMe {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex: 1;
+  text-align: center;
+}
+.back-to-home-link {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.email {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.enroll-link {
+  color: white;
+  border: var(--border);
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: block;
+}
+.links:visited {
+  color: white;
+  text-decoration: none;
+}
+.links:hover {
+  color: black;
+  text-decoration: none;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+#name {
+  color: rgb(227, 154, 44);
+}
+#l1,
+#l2,
+#l3 {
+  color: rgb(173, 81, 16);
+}
+body {
+  background-color: whitesmoke;
+}
+#bg2 {
+  background-color: rgb(245, 231, 214);
+}
+.active {
+  font-weight: bolder;
+}
+#contact {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .links {
+    font-size: 10px;
+  }
+  .enroll-link {
+    display: block;
+    margin: 0 auto;
+  }
+}
